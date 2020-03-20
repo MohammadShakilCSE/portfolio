@@ -1,0 +1,10 @@
+root{
+    --primary-color:#4458dc;
+    --primary-color2:#854fee;
+    --title-color:#141313;
+    --text-color:#777777;
+    --border-color:#20f1f1f1;
+    --shadow-olor:0px 10px 30px rgba(111,95,225,.3);
+    --box-shadow:0px 7px 30px  rgba(57,58,61,.200);
+    --font-family: 'Roboto' ; 
+}

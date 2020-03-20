@@ -1,0 +1,317 @@
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+/*css varibles*/
+@import url(variable.css);
+
+/*navigation menu*/
+.header-area .main-manu .navbar .navbar-brand{
+padding: 0 2rem 0 5rem;
+}
+.header-area .main-manu .navbar{
+    padding: 1rem 9rem;
+}
+.header-area .main-manu .nav-item .nav-link{
+    font-family:var(--font-family);
+    font-size: .8rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 10px ;
+    color: var(--text-color);
+}
+.img{
+    height: 90px;
+    width: 100px;
+}
+/*home*/
+
+#ho{
+    background-image: url(../img/marvin-meyer-SYTO3xs06fU-unsplash.jpg);
+	min-height:100vh;
+	background-position:center center;
+	text-align:center;
+	color:#fff;
+	background-size:cover;
+	background-attachment:fixed;
+}
+.overlay{
+	margin:0;
+	padding:0;
+	background-color:rgba(0 ,0 ,0 ,.5);
+}
+.home{
+   padding: 270px 0;
+}
+.home>h1{
+    font-weight: 400;
+    font-size: 3rem;
+    border: 3px solid white;
+    padding: 8px 12px;
+    display: inline;
+}
+.home>a{
+    text-decoration: none;
+}
+.home>a>button{
+    border:0;
+    background: #45e19f;
+    padding: 10px 18px;
+    border-radius: 18px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 400;
+    text-align: center;
+display: block;
+margin-left: 45%;
+margin-top:40px; 
+}
+.home>a>button:hover{
+    background: #333;
+}
+.home>h1>span{
+    color:#45e19f;
+}
+/*portfilo*/
+.class
+{
+    padding: 60px;
+    background-color:#d8e7ee; 
+}
+.Full-port>h2{
+    font-size: 3rem;
+    padding: 20px;
+    text-transform: uppercase;
+}
+.images-row>.im>img{
+    width: 100%;
+    height:100%;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    padding: 10px;
+}
+/*About us*/
+.about-us{
+    padding: 30px;
+    margin-bottom: 50px;
+}
+.about>h3{
+    font-size: 1rem;
+    color: #a59e9e;
+    border-left: 3px solid #a59e9e;
+    padding: 5px; 
+}
+.about>h2{
+    font-size: 3rem;
+    margin-bottom: 20px;
+
+}
+.about>p{
+    line-height: 30px;
+    width:700px;
+}
+.about>button{
+    padding: 8px 12px;
+    border:none;
+    border-radius: 2px;
+    background: #45e19f;
+    
+}
+.about>button>a{
+    text-decoration: none;
+    color: #fff;
+
+}
+.about>button:hover{
+    background: #333;
+}
+/*our team section*/
+
+section{
+    background-color:#fff; 
+
+}
+.heading{
+    text-transform: uppercase;
+    font-size:3rem;
+    letter-spacing: 3px;
+    margin-right: -3px;
+    text-align: center;
+    color: #333;
+    position: relative;
+    margin-bottom: 4rem;
+}
+.heading::after{
+    content: "";
+    width: 10rem;
+    background:#45e19f;
+    position: absolute;
+    height: .5rem;
+    bottom:-1.5rem;
+    left:50%;
+    transform: translateX(-50%);
+    border-radius: 2rem; 
+}
+.card-wrapper{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+.cards{
+    width:20rem;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left:.8rem;
+    box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+    padding-left: 10px;
+    margin-bottom:2rem; 
+}
+.cards .card-image{
+    width: 19rem;
+    height: 10rem;
+    object-fit: cover;
+    clip-path: polygon(0 2%, 100% 1%, 100% 66%, 0% 100%);
+}
+.profile-image{
+    width: 10rem;
+    height: 10rem;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top:-7rem;
+    z-index: 999;
+    border: .6rem solid #45e19f;
+}
+.cards h1{
+    text-align: center;
+    font-size:2rem; 
+    font-weight: bold;
+}
+.cards .job-title{
+    text-align: center;
+    color:#777;
+    font-size: 1.5rem;
+}
+.cards .des{
+    text-align: justify;
+    padding: 5px;
+    font-size: 1rem;
+    font-style: italic;
+    color: #333;
+}
+.btnn{
+    border: 0;
+    padding: 6px 12px;
+    color: white;
+    background: #45e19f;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 16px;
+    transition: .4s;
+}
+.btnn:hover{
+    color:#fff;
+    background: #333;
+}
+.social-media{
+    list-style: none;
+    margin-left: -45px;
+}
+.social-media li{
+    float: left;
+}
+.social-media li a{
+    text-align: center;
+    font-size: 1.2rem;
+}
+.social-media li a i{
+    color: #fff;
+    border-radius:50%; 
+    width:30px;
+    height:30px;
+    margin-bottom:10px;
+    line-height:29px;
+    margin-left:5px; 
+}
+.fa-facebook{
+    background-color:#3a5695;
+    
+}
+.fa-google-plus{
+	background-color:#cd3c2a;
+}
+.fa-linkedin{
+		background-color:#007bb6;
+}
+.fa-twitter{
+	background-color:#5ea9dd;
+}
+/*about*/
+
+.con>h2{
+    text-transform: uppercase;
+    font-size:2rem;
+    letter-spacing: 3px;
+    margin-right: -3px;
+    text-align: center;
+    color: #333;
+    position: relative;
+    margin-bottom: 4rem;
+
+}
+.Contact{
+    padding: 40px;
+}
+.text-s{
+    width: 48%;
+    padding-right: 30px;
+}
+.text-s>label{
+display: block;
+margin-top: 5px;
+}
+.text-s>input,.text-s>textarea{
+    width: 100%;
+    display: block;
+    padding: 6px;
+}
+.text-s>textarea{
+    margin-top: 39px;
+    height: 120px;
+    margin-bottom: 18px;
+}
+.sub{
+    color: #fff;
+    background: #45e19f;
+    border: none;
+
+}
+.sub:hover{
+    background: #333;
+}
+footer{
+    color: #fff;
+    background: #333;
+    padding: 15px;
+}
+footer p{
+text-align: center;
+}
+@media screen and (min-width:700px){
+    .card-wrapper{
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+
+    }
+    
+}
